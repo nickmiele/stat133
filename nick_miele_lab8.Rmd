@@ -1,0 +1,30 @@
+---
+title: "HW 6 Stat 133"
+author: "Nick Miele"
+date: ""
+output: html_document
+---
+<!-- leave this material as is -->
+Compiled on `r date()`.
+
+### Load key packages
+```{r results='hide', message=FALSE, warning=FALSE}
+library(DataComputing) #key for coding
+library(printr) 
+library(lubridate) #modify dates
+library(ggplot2) #graphing
+library(ggthemes) #graphing themes
+library(tidyr) #data organization
+library(dplyr) #data organization?
+library(rvest) #HTML & data scraping
+
+```
+
+*Source file* 
+```{r, results='asis', echo=FALSE}
+includeSourceDocuments()
+```
+
+```{r}
+print("I like learning R in Stat133!")
+```
